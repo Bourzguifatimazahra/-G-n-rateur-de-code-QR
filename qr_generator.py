@@ -8,7 +8,7 @@ import sys
 
 # Vérification de la version de Python
 if sys.version_info >= (3, 12):
-    st.warning("⚠️ Version Python 3.12+ détectée. Assurez-vous que Pillow est compatible.")
+    st.warning(" ")
 
 def main():
     # Page configuration
