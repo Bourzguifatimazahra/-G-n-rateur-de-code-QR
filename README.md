@@ -154,7 +154,33 @@ qr-generator-pro/
 - ✅ No external API calls
 - ✅ Local processing only
 - ✅ No tracking or analytics
+## Quick Setup Commands
+```
+# Create project directory
+mkdir qr-generator-pro
+cd qr-generator-pro
 
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment (Windows)
+venv\Scripts\activate
+
+# Activate virtual environment (Mac/Linux)
+source venv/bin/activate
+
+# Install dependencies
+pip install qrcode[pil] pillow streamlit
+
+# Create the Python file
+touch qr_generator.py
+
+# Create README
+touch README.md
+
+# Run the application
+streamlit run qr_generator.py
+```
 ## 🌟 Pro Tips
 
 1. **Optimal Scanning**: Use high contrast colors (dark on light)
