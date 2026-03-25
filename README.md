@@ -1,218 +1,217 @@
-# 📱 QR Code Generator Pro
+# 📱 QR Code Generator
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-2.0-blue.svg)
-![Python](https://img.shields.io/badge/python-3.7+-green.svg)
+![Version](https://img.shields.io/badge/version-1.0-blue.svg)
+![Python](https://img.shields.io/badge/python-3.11+-green.svg)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.28+-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-yellow.svg)
-![QR Code](https://img.shields.io/badge/QRCode-PIL-orange.svg)
-![Multilingual](https://img.shields.io/badge/multilingual-4%20languages-brightgreen.svg)
+![Free](https://img.shields.io/badge/free-100%25-brightgreen.svg)
+![Languages](https://img.shields.io/badge/languages-4-orange.svg)
 
+[![Live Demo](https://img.shields.io/badge/demo-live-blue.svg)](https://codeqr.streamlit.app/)
 [![Made with Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 </div>
 
-## 🌟 Overview
+## 🚀 Live Demo
 
-**QR Code Generator Pro** is a powerful, multilingual web application that allows you to generate professional QR codes instantly. Perfect for businesses, events, marketing campaigns, and personal use. Built with Streamlit and Python, it offers a clean interface with extensive customization options.
+**Try it now:** [https://codeqr.streamlit.app/](https://codeqr.streamlit.app/)
 
-### ✨ Key Features
+## 🌟 About
+
+A simple, free, and powerful QR code generator. No signup, no ads, no expiration. Generate QR codes instantly for any URL or text.
+
+**Available in:** 🇫🇷 Français | 🇬🇧 English | 🇸🇦 العربية | 🇪🇸 Español
+
+## ✨ Features
 
 | Feature | Description |
 |---------|-------------|
-| 🌐 **Multilingual Support** | Available in French, English, Arabic (RTL), and Spanish |
-| 🎨 **Custom Colors** | Choose any colors for QR code and background |
-| 📏 **Size Control** | Adjust QR code size from 5 to 20 pixels per block |
-| 🖼️ **Border Control** | Customizable quiet zone around the QR code |
-| 📥 **Easy Download** | Download QR codes as high-quality PNG files |
-| 📊 **Statistics** | Track number of QR codes generated |
-| 💡 **Smart Tips** | Best practices and usage examples included |
-| 🚀 **Real-time Preview** | Instant generation and preview |
+| 🆓 **100% Free** | No payment, no subscription ever |
+| 🚫 **No Ads** | Clean interface without distractions |
+| ⏰ **No Expiration** | QR codes never expire |
+| 🌍 **4 Languages** | French, English, Arabic, Spanish |
+| 🎨 **Custom Colors** | Choose your QR code colors |
+| 📏 **Size Control** | Adjust QR code size from 5-20px |
+| 📥 **Easy Download** | Save as PNG instantly |
+| 📊 **Statistics** | Track number of generated codes |
+| 🔒 **Privacy First** | No data storage, no tracking |
+
+## 🎯 What Can You Generate?
+
+| Type | Example |
+|------|---------|
+| 🔗 **Website URLs** | `https://example.com` |
+| 📝 **Google Forms** | Any form link |
+| 📱 **Text Messages** | Any text or note |
+| 📞 **Contact Info** | vCard format |
+| 📶 **WiFi Credentials** | `WIFI:S:Network;T:WPA;P:Password;;` |
+| 🎓 **Educational Links** | Course materials, quizzes |
+| 🏢 **Business Links** | Product pages, surveys |
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Online (No installation needed)
+Simply visit: [https://codeqr.streamlit.app/](https://codeqr.streamlit.app/)
 
-- Python 3.7 or higher
-- pip package manager
+### Local Installation (Optional)
 
-### Installation
-
-1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/qr-generator-pro.git
-cd qr-generator-pro
-```
+# Clone the repository
+git clone https://github.com/Bourzguifatimazahra/-G-n-rateur-de-code-QR.git
+cd -G-n-rateur-de-code-QR
 
-2. **Install dependencies**
-```bash
-pip install qrcode[pil] pillow streamlit
-```
+# Install dependencies
+pip install qrcode[pil] streamlit
 
-3. **Run the application**
-```bash
+# Run the app
 streamlit run qr_generator.py
 ```
 
-4. **Open your browser**
+## 📖 How to Use
+
+1. **Enter** your URL or text in the input field
+2. **Customize** colors and size (optional)
+3. **Click** "Generate QR Code"
+4. **Download** your QR code as PNG file
+
+### Quick Demo
 ```
-http://localhost:8501
+Example URL to test:
+https://docs.google.com/forms/d/e/1FAIpQLSd8tTc3E1qklY38rSM0cwJuMwRBPfd9VXKo2BYw31IAETOtDg/viewform
 ```
 
-## 📖 Usage Guide
+## 🎨 Customization Options
 
-### Basic Usage
+| Option | Range | Description |
+|--------|-------|-------------|
+| Box Size | 5-20 px | Size of each QR block |
+| Border | 1-10 px | White space around QR |
+| QR Color | Any color | Main QR code color |
+| Background | Any color | Background color |
+| Language | 4 options | FR, EN, AR, ES |
 
-1. **Enter your URL or text** in the input field
-2. **Customize** the QR code appearance (optional)
-3. **Click "Generate QR Code"**
-4. **Download** the QR code as PNG
+## 💡 Use Cases
 
-### Advanced Features
+### For Business
+- 📱 Marketing materials and flyers
+- 🏪 Product information pages
+- 📋 Customer feedback forms
+- 🎉 Event registration
+- 💼 Digital business cards
 
-#### 🎨 Customization Options
-- **Box Size**: Controls the pixel size of each QR module (5-20px)
-- **Border**: Adjust the quiet zone around the QR code (1-10px)
-- **Color Schemes**: Choose between classic black & white or custom colors
-- **Background Color**: Set any background color for your QR code
+### For Personal
+- 📶 Share WiFi credentials
+- 📞 Send contact information
+- 🌐 Share social media profiles
+- 📝 Create digital notes
+- 🎁 Gift messages
 
-#### 🌍 Language Support
-- 🇫🇷 **French** - Français
-- 🇬🇧 **English** - English  
-- 🇸🇦 **Arabic** - العربية (with RTL support)
-- 🇪🇸 **Spanish** - Español
-
-## 🎯 Use Cases
-
-### Business Applications
-- 📱 **Marketing Materials**: Add QR codes to flyers, posters, and business cards
-- 🏪 **Product Information**: Link to product pages or specifications
-- 📋 **Form Submissions**: Easy access to Google Forms and surveys
-- 🔗 **Link Shortening**: Share long URLs in a scannable format
-
-### Personal Use
-- 📞 **Contact Information**: Share vCards and contact details
-- 🌐 **Social Media**: Quick links to profiles and pages
-- 📝 **Text Messages**: Share notes and important information
-- 🏠 **WiFi Sharing**: Easy WiFi network access
-
-### Technical Applications
-- 🔐 **Secure Links**: Generate QR codes for authentication
-- 📊 **Analytics Tracking**: Track scan metrics with unique QR codes
-- 🏥 **Healthcare**: Patient information and medical records
-- 🎓 **Education**: Share resources and assignments
+### For Education
+- 📚 Share resources with students
+- 📝 Link to online quizzes
+- 🎓 Provide quick access to assignments
+- 🔗 Course materials and references
 
 ## 🔧 Technical Details
 
-### Architecture
+### Built With
+- **Streamlit** - Web interface framework
+- **Python** - Backend logic
+- **QRCode library** - QR generation engine
+- **Pillow (PIL)** - Image processing
 
-```mermaid
-graph LR
-    A[User Input] --> B[Streamlit UI]
-    B --> C[QR Code Generator]
-    C --> D[PIL Image Processing]
-    D --> E[PNG Output]
-    E --> F[Download/Display]
-```
-
-### Dependencies
-
-```python
-qrcode[pil]  # QR code generation
-pillow       # Image processing
-streamlit    # Web interface
-io           # Bytes I/O handling
-time         # Timestamp generation
-```
+### Requirements
+- Python 3.11 or higher
+- pip package manager
+- Internet connection (for online version)
 
 ### File Structure
-
 ```
-qr-generator-pro/
+-G-n-rateur-de-code-QR/
 ├── qr_generator.py      # Main application
-├── README.md            # Documentation
 ├── requirements.txt     # Dependencies
-├── LICENSE             # MIT License
-
+├── runtime.txt         # Python version
+├── packages.txt        # System packages
+├── README.md           # Documentation
+└── .streamlit/         # Streamlit config
+    └── config.toml     # App configuration
 ```
 
-## 📊 Performance
+## 🌐 Language Support
+
+| Language | Status | RTL Support |
+|----------|--------|-------------|
+| 🇫🇷 French | ✅ Full | No |
+| 🇬🇧 English | ✅ Full | No |
+| 🇸🇦 Arabic | ✅ Full | Yes |
+| 🇪🇸 Spanish | ✅ Full | No |
+
+## 📱 Mobile Friendly
+
+Works perfectly on all devices:
+- 📱 Smartphones (iOS & Android)
+- 💻 Tablets
+- 🖥️ Desktop computers
+- 📺 Large screens
+
+## 🔒 Privacy & Security
+
+- ✅ **No data storage** - Everything stays on your device
+- ✅ **No tracking** - No analytics or monitoring
+- ✅ **No registration** - Use immediately
+- ✅ **No API calls** - All processing local
+- ✅ **Open source** - Code is transparent
+
+## 🎯 Why Choose This Tool?
+
+| Problem | Our Solution |
+|---------|--------------|
+| Paid QR generators | ✅ **100% Free forever** |
+| QR codes with ads | ✅ **No ads at all** |
+| Expiring QR codes | ✅ **Never expire** |
+| Complex interfaces | ✅ **Simple & clean** |
+| Limited languages | ✅ **4 languages** |
+| Registration required | ✅ **No signup** |
+| Data privacy concerns | ✅ **No data stored** |
+
+## 📊 Performance Metrics
 
 | Metric | Value |
 |--------|-------|
 | Generation Time | < 1 second |
 | File Size | 5-50 KB |
 | Max URL Length | 2953 characters |
-| Supported Formats | PNG, JPEG |
+| Output Format | PNG |
 | Max QR Size | 20px per block |
-
-## 🔒 Security Features
-
-- ✅ No data storage - everything is client-side
-- ✅ No external API calls
-- ✅ Local processing only
-- ✅ No tracking or analytics
-## Quick Setup Commands
-```
-# Create project directory
-mkdir qr-generator-pro
-cd qr-generator-pro
-
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment (Windows)
-venv\Scripts\activate
-
-# Activate virtual environment (Mac/Linux)
-source venv/bin/activate
-
-# Install dependencies
-pip install qrcode[pil] pillow streamlit
-
-# Create the Python file
-touch qr_generator.py
-
-# Create README
-touch README.md
-
-# Run the application
-streamlit run qr_generator.py
-```
-## 🌟 Pro Tips
-
-1. **Optimal Scanning**: Use high contrast colors (dark on light)
-2. **Size Matters**: Minimum 2x2 cm for physical printing
-3. **Test First**: Always test with multiple QR scanners
-4. **Error Correction**: M-level (15%) error correction included
-5. **URL Shortening**: Use URL shorteners for complex links
+| Error Correction | 15% (M-level) |
 
 ## 🐛 Troubleshooting
 
-### Common Issues
-
 | Issue | Solution |
 |-------|----------|
-| QR code not scanning | Increase box size or check contrast |
+| QR code not scanning | Increase box size or check color contrast |
 | File not downloading | Check browser permissions |
 | Language not changing | Refresh the page after selection |
 | Error generating QR | Verify URL format is correct |
+| App not loading | Check internet connection |
 
 ## 🚀 Future Updates
 
 - [ ] Dynamic QR codes (updatable content)
-- [ ] Batch generation
+- [ ] Batch generation (multiple QR codes)
 - [ ] SVG output format
 - [ ] QR code analytics
 - [ ] Custom logo embedding
 - [ ] API endpoints
 - [ ] Mobile app version
+- [ ] Dark mode support
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Here's how you can help:
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -220,35 +219,81 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+### Areas for Contribution
+- Bug fixes
+- New features
+- Documentation improvements
+- Language translations
+- UI/UX enhancements
+
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see below:
 
-## 👥 Authors
+```
+MIT License
 
-- **Your Name** - *Initial work* - [YourGithub](https://github.com/yourusername)
+Copyright (c) 2026 Bourzgui Fatima zahra
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## 👥 Author
+
+**Bourzgui Fatima zahra**
+- GitHub: [@Bourzguifatimazahra](https://github.com/Bourzguifatimazahra)
+- Project: [-G-n-rateur-de-code-QR](https://github.com/Bourzguifatimazahra/-G-n-rateur-de-code-QR)
+- Live Demo: [codeqr.streamlit.app](https://codeqr.streamlit.app/)
 
 ## 🙏 Acknowledgments
 
-- [Streamlit](https://streamlit.io/) for the amazing framework
-- [QRCode](https://github.com/lincolnloop/python-qrcode) library
-- [Pillow](https://python-pillow.org/) for image processing
+- [Streamlit](https://streamlit.io/) - For the amazing web framework
+- [QRCode](https://github.com/lincolnloop/python-qrcode) - QR generation library
+- [Pillow](https://python-pillow.org/) - Image processing library
 - All contributors and users of this project
 
-## 📞 Support
+## 📞 Support & Contact
 
-For support, email: your-email@example.com  
-Or open an issue in the GitHub repository.
+- 🐛 **Report bugs:** [GitHub Issues](https://github.com/Bourzguifatimazahra/-G-n-rateur-de-code-QR/issues)
+- 💡 **Feature requests:** [GitHub Discussions](https://github.com/Bourzguifatimazahra/-G-n-rateur-de-code-QR/discussions)
+- 📧 **Email:** bourzguifatimazahra@gmail.com
+- 🌐 **Live Demo:** [https://codeqr.streamlit.app/](https://codeqr.streamlit.app/)
 
 ---
 
 <div align="center">
-Made with ❤️ using Python and Streamlit
 
-![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-red)
-![QRCode](https://img.shields.io/badge/QRCode-PIL-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+### ⭐ Show your support
 
+If you find this project useful, please give it a star on GitHub!
+
+**Star this repo** ⭐
+
+---
+
+**Made with ❤️ for the community**
+
+[![GitHub stars](https://img.shields.io/github/stars/Bourzguifatimazahra/-G-n-rateur-de-code-QR?style=social)](https://github.com/Bourzguifatimazahra/-G-n-rateur-de-code-QR/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Bourzguifatimazahra/-G-n-rateur-de-code-QR?style=social)](https://github.com/Bourzguifatimazahra/-G-n-rateur-de-code-QR/network/members)
+
+[![Live Demo](https://img.shields.io/badge/Try%20Now-Live%20Demo-blue?style=for-the-badge)](https://codeqr.streamlit.app/)
+
+</div>
+```
  
